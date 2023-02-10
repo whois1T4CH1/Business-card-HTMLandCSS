@@ -5,7 +5,7 @@ nav {
     color: grey;
     text-align: left;
     border-radius: 10px;
-    padding: 50px 40px 25px 40px;
+    ;
     margin: 0px;
 }
 
@@ -77,16 +77,12 @@ img {
 /* section */
 
 section {
-    background-icolor:black;
+    background-color:black;
     text-align: center;
     color: grey;
     font-size: large;
     border-radius: 100px;
     
-}
-
-.aboutME {
-    padding: 100px 100px 100px 100px;
 }
 
 .aboutME p {
