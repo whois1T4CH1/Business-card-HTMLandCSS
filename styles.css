@@ -1,20 +1,75 @@
-
-nav{
+nav {
+    background-image: url("images/tomoko-uji-OrKxMmp3MZI-unsplash.jpg");
+    background-size: cover;
     color: grey;
-    font-size: xxx-large ;
-    display: block;
-    color: black;
-    padding: 50px 0px;
-    font-weight: bolder;
+    text-align: left;
+    border-radius: 10px;
+    padding: 50px 40px 50px 40px;
+    margin: 0px;
 }
 
+body{
+    background-color: black;
+}
 
+p {
+    margin: 0px;
+}
 
-
+.intro{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 0px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px;
+    
+}
 
 img {
-    background-color: aliceblue;
-    width: auto;
+    width: 125px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.navLink {
+    margin-top: 10px;
+    display: inline;
+    margin: 0px auto;
+    
+    
+
+}
+
+.navItem {
     display: block;
-    margin: auto;
+    color: grey;
+    margin: 0px auto;
+    
+
+}
+
+.navItem1 {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 25px;
+    margin: 0px 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.qoute {
+    margin-left: 50px;
+    margin-top: 100px;
+    color: grey;
+    
+}
+
+.qoute p {
+    margin-left: 300px;
 }
