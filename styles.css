@@ -7,6 +7,7 @@ nav {
     border-radius: 1rem;
     ;
     margin: 0px;
+    border-bottom: 1px solid gray;
 }
 
 body{
@@ -28,13 +29,17 @@ p {
     
 }
 
+.experience {
+    padding: 2rem 0rem;
+}
+
 img {
     width: 125px;
     border: 1px solid grey;
     border-radius: 5px;
-    margin-right: 3rem;
+    
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .navLink {
@@ -70,6 +75,8 @@ img {
     color: grey;
     text-align: start;
     width: auto;
+    padding: 4rem 0rem;
+
 }
 
  /* NAVIGATION */
@@ -81,7 +88,8 @@ section {
     text-align: center;
     color: grey;
     font-size: large;
-    border-radius: 100px;
+    border-radius: 1rem;
+    border-top: 1px solid grey;
     
 }
 
