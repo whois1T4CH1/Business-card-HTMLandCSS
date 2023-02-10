@@ -1,10 +1,11 @@
+ /* NAVIGATION */
 nav {
     background-image: url("images/tomoko-uji-OrKxMmp3MZI-unsplash.jpg");
     background-size: cover;
     color: grey;
     text-align: left;
     border-radius: 10px;
-    padding: 50px 40px 50px 40px;
+    padding: 50px 40px 25px 40px;
     margin: 0px;
 }
 
@@ -38,17 +39,17 @@ img {
 
 .navLink {
     margin-top: 10px;
-    display: inline;
-    margin: 0px auto;
+    margin: auto auto;
+    text-align: end;
     
     
 
 }
 
 .navItem {
-    display: block;
+    display: inline;
     color: grey;
-    margin: 0px auto;
+    margin: 100px auto;
     
 
 }
@@ -65,11 +66,29 @@ img {
 
 .qoute {
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 0px;
     color: grey;
+    text-align: start;
+    width: auto;
+}
+
+ /* NAVIGATION */
+
+/* section */
+
+section {
+    background-icolor:black;
+    text-align: center;
+    color: grey;
+    font-size: large;
+    border-radius: 100px;
     
 }
 
-.qoute p {
-    margin-left: 300px;
+.aboutME {
+    padding: 100px 100px 100px 100px;
+}
+
+.aboutME p {
+    padding: 10px 10px;
 }
