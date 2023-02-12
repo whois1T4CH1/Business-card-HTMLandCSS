@@ -1,71 +1,46 @@
  /* NAVIGATION */
 nav {
-    background-image: transparent;
-    
-    text-align: left;
-    
-    
-    margin: 0px;
-    border-bottom: 1px solid gray;
+    text-align: left; 
+    margin: 2rem 0rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+}
+
+.welcomeMsg {
+    padding-left: 2rem;
+    font-size: xxx-large;
 }
 
 body{
-    background-image: url("images/davi-moreira-t7itPRh7Kkg-unsplash.jpg");
+    background-image: url("images/wp5594835-4k-minimal-anime-wallpapers.jpg");
     background-size: cover;
 }
 p {
     margin: 0px;
 }
 
-.intro{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding: 0rem;
-    font-weight: bolder;
+.qouteAndLinks {
     display: flex;
-    justify-content: start;
-    border-radius: 10px;
-    
+    justify-content: space-between;
 }
 
-.experience {
-    padding: 2rem 0rem;
+.links ul li{
+    display: inline;   
 }
 
-img {
-    width: 125px;
-    border: 1px solid grey;
-    border-radius: 5px;
-    
-    margin-top: 6rem;
-    margin-right: 1rem;
+.links ul {
+    margin-right: 2rem;
+    margin-top: 4rem;
 }
 
-.navLink {
-    margin-top: 10px;
-    margin: auto auto;
-    text-align: end;
-    
-    
-
-}
-
-.navItem {
-    display: inline;
-    color: grey;
-    margin: 100px auto;
-    
-
-}
-
-.navItem1 {
+.links ul li a {
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    padding: 3px 1rem;
-    margin: 0px 10px;
-    background-color: grey;
-    border-radius:1rem;
+    border-radius: 1rem;
+    padding: 5px 1rem;
+    margin: 0rem 1rem;
+    color: black;
 }
 
 .qoute {
@@ -73,8 +48,8 @@ img {
     margin-top: 0px;
     color: black;
     text-align: start;
-    font-size: small;
-    padding: 4rem 0rem;
+    font-size: x-small;
+    padding: 1rem 1rem;
 
 }
 
@@ -83,12 +58,12 @@ img {
 /* section */
 
 section {
-    background-color:black;
+    margin-top: 2rem;
     text-align: center;
-    color: grey;
+    color: black;
     font-size: medium;
     border-radius: 1rem;
-    border-top: 1px solid grey;
+    border: 1px solid black;
     
 }
 
@@ -97,7 +72,7 @@ section {
 }
 
 .aboutME h1 {
-    font-size: xx-large
+    font-size: large
     ;
     
 }
