@@ -1,5 +1,8 @@
  /* NAVIGATION */
 nav {
+    background-image: url("images/kseniya-lapteva-bw6EB47LpfU-unsplash.jpg");
+    background-size: cover;
+
     text-align: left; 
     margin: 2rem 0rem;
     border-radius: 2rem;
@@ -12,7 +15,7 @@ nav {
 }
 
 body{
-    background-image: url("images/wp5594835-4k-minimal-anime-wallpapers.jpg");
+    background-image: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg");
     background-size: cover;
 }
 p {
@@ -60,7 +63,7 @@ p {
 .aboutME {
     margin-top: 2rem;
     text-align: center;
-    color: black;
+    color: rgb(193, 184, 184);
     font-size: medium;
     border-radius: 1rem;
     
@@ -83,12 +86,28 @@ p {
     border-radius: 2rem;
     text-align: center;
     padding: 0rem 3rem;
+    color: black;
+    background-image: url("images/kseniya-lapteva-bw6EB47LpfU-unsplash.jpg");
 
 }
 
 .experience h3 {
     text-decoration: underline;
 }
+
+.exLetter {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 1rem;
+    background-color: black;
+    color: grey;
+}
+
+.exLetter1 {
+    margin-bottom: 2rem;
+}
+
 
 .txtWorkEx {
     text-align: center;
@@ -104,5 +123,19 @@ p {
 }
 
 .qualityAnalyst {
-    padding: 4rem 0rem;
+    padding: 4rem 0rem 2rem 0rem;
+}
+
+.offLetter {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 1rem;
+    background-color: black;
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+.offLetter1 {
+    margin: 2rem 0rem;
 }
