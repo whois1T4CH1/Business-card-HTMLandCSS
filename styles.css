@@ -1,19 +1,18 @@
  /* NAVIGATION */
 nav {
-    background-image: url("images/tomoko-uji-OrKxMmp3MZI-unsplash.jpg");
-    background-size: cover;
-    color: grey;
+    background-image: transparent;
+    
     text-align: left;
-    border-radius: 1rem;
-    ;
+    
+    
     margin: 0px;
     border-bottom: 1px solid gray;
 }
 
 body{
-    background-color: black;
+    background-image: url("images/davi-moreira-t7itPRh7Kkg-unsplash.jpg");
+    background-size: cover;
 }
-
 p {
     margin: 0px;
 }
@@ -72,7 +71,7 @@ img {
 .qoute {
     margin-left: 1rem;
     margin-top: 0px;
-    color: grey;
+    color: black;
     text-align: start;
     font-size: small;
     padding: 4rem 0rem;
