@@ -1,141 +1,36 @@
- /* NAVIGATION */
-nav {
-    background-image: url("images/kseniya-lapteva-bw6EB47LpfU-unsplash.jpg");
-    background-size: cover;
-
-    text-align: left; 
-    margin: 2rem 0rem;
-    border-radius: 2rem;
-    border: 1px solid black;
-}
-
-.welcomeMsg {
-    padding-left: 2rem;
-    font-size: xxx-large;
-}
-
-body{
-    background-image: url("images/nick-nice-gPm8h3DS1s4-unsplash.jpg");
-    background-size: cover;
-}
-p {
-    margin: 0px;
-}
-
-.qouteAndLinks {
-    display: flex;
-    justify-content: space-between;
-}
-
-.links ul li{
-    display: inline;   
-}
-
-.links ul {
-    margin-right: 2rem;
-    margin-top: 4rem;
-}
-
-.links ul li a {
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 5px 1rem;
-    margin: 0rem 1rem;
-    color: black;
-}
-
-.qoute {
-    margin-left: 1rem;
-    margin-top: 0px;
-    color: black;
-    text-align: start;
-    font-size: x-small;
-    padding: 1rem 1rem;
-
-}
-
- /* NAVIGATION */
-
-/* section about me */
-
-.aboutME {
-    margin-top: 2rem;
+body {
+    background-color: white;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
-    color: rgb(193, 184, 184);
-    font-size: medium;
-    border-radius: 1rem;
+    margin: 0;
     
 }
 
-.aboutME p {
-    padding: 2rem
-}
-
-.aboutME h1 {
-    font-size: large;
-    text-decoration: underline ;
-    
-}
-
-/* section about me */
-
-.experience {
-    border: 1px solid black;
-    border-radius: 2rem;
+.hero {
+    background-image: url("images/giphy.gif");
+    background-size: cover;
     text-align: center;
-    padding: 0rem 3rem;
-    color: black;
-    background-image: url("images/kseniya-lapteva-bw6EB47LpfU-unsplash.jpg");
-
+    text-shadow: 4px 4px 4px black;
+    padding: 3rem 10rem 10rem 10rem;
+    color: white;
 }
 
-.experience h3 {
-    text-decoration: underline;
-}
-
-.exLetter {
-    text-decoration: none;
+.btn {
     border: 1px solid black;
-    border-radius: 10px;
-    padding: 12px 1rem;
-    background-color: black;
-    color: grey;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    background-color: white;
+    font-family: inherit;
+    font-weight: 800;
 }
 
-.exLetter1 {
-    margin-bottom: 2rem;
+.underline {
+    border-bottom: 5px solid;
 }
 
+#mainLogo {
+    display: block;
+    width: 5rem;
+    margin: 0px auto;
 
-.txtWorkEx {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.experience p {
-    padding: 10px 0px;
-}
-
-.rAndr {
-    text-align: start;
-}
-
-.qualityAnalyst {
-    padding: 4rem 0rem 2rem 0rem;
-}
-
-.offLetter {
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 12px 1rem;
-    background-color: black;
-    color: grey;
-    margin-bottom: 2rem;
-}
-
-.offLetter1 {
-    margin: 2rem 0rem;
 }
